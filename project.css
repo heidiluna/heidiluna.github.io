@@ -29,6 +29,10 @@ margin-right: 1%;
 border:2px solid purple;
 }
 
+table {
+  border: 2px solid black;
+}
+
 .bottomnav {
   text-align: center;
   font-size: 20px;
