@@ -1,0 +1,42 @@
+.hand1{
+  position: absolute;
+  top: 56.5%;
+  left: 49.25%;
+  transform: rotate(270deg);
+  transform-origin: left center;
+  animation: spin1 10s;
+}
+.hand2{
+  position: absolute;
+  transform: rotate(270deg);
+  transform-origin: left center;
+  top: 53.5%;
+  left: 50.5%;
+  animation: spin2 10s;
+}
+#frameContainer{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+
+}
+#clock{
+  width: 500px;
+}
+#hand1{
+  width: 130px;
+}
+#hand2{
+  width: 170px;
+}
+
+@keyframes spin1 {
+  0%{transform: rotate(270deg);}
+  100%{transform: rotate(470deg);}
+
+}
+@keyframes spin2 {
+  0%{transform: rotate(270deg);}
+  100%{transform: rotate(630deg);}
+}
