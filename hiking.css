@@ -62,9 +62,6 @@ height: 425px;
   font-family: "Times New Roman", Times, serif;
 }
 
-.bottomnav li a:hover {
-  color: darkgreen;
-}
 .txt_bottom {
   text-align: center;
 }
