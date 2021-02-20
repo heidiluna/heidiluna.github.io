@@ -1,0 +1,177 @@
+body {
+    background-color:AliceBlue  ;
+}
+
+.container {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.product {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.sub {
+    border: 3px solid rgb(230,143,172);
+    height: 100%;
+    padding-bottom: 20%;
+}
+
+.sub img {
+    width: 50%;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 8%;
+}
+
+.sub p {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(247,83,148);
+}
+
+.sub a {
+    background-color: coral;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 4%;
+    margin-left: 31%;
+}
+
+.modal1 {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(244,194,194, 0.673);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal1:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.roses {
+    position: relative;
+    width: 60%;
+    background-color: #B9D9EB;
+    margin: 3% auto auto auto;
+    height: 80%;
+}
+
+.roses h2 {
+    background-color: MistyRose;
+    color: rgb(255,135,141);
+    position: absolute;
+    font-size: 2vw;
+    margin: 0%;
+    width: 98%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+.roses p {
+    background-color: MistyRose;
+    font-size: 1.3vw;
+    position: absolute;
+    margin: 12% 2% auto 2%;
+    padding: 3%;
+}
+
+.roses img {
+    position: absolute;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 30%;
+    height: auto;
+}
+
+.roses a {
+  background-color: rgb(255,193,204);
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 80%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 1%;
+}
+
+/* -------------------modal 2 ------------------- */
+
+.modal2 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(244,194,194, 0.673);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal2:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.flower {
+    position: relative;
+    width: 60%;
+    height: 80%;
+    background-color: #B9D9EB;
+    margin: 3% auto auto auto;
+}
+
+.flower h2 {
+    background-color: MistyRose;
+    color: rgb(255,135,141);
+    position: absolute;
+    font-size: 2vw;
+    margin: 0%;
+    width: 98%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+.flower p {
+    background-color: MistyRose;
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+.flower img {
+    position: absolute;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+
+.flower a {
+    background-color: MistyRose;
+    color: rgb(219,112,147);
+    position: absolute;
+    left: 96.5%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 29px;
+    width: 3%;
+}
