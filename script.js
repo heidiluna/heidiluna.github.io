@@ -36,11 +36,8 @@ console.log(results);
 console.log("");
 console.log("Part C");
 
-// const netsAverage = (96+108+89)/3;
-// const knicksAverage = (88+91+110)/3;
 const netsAverage = (97+112+101)/3;
 const knicksAverage = (109+95+123)/3;
-// const knicksAverage = (109+95+106)/3;
 
 console.log(`Nets Team Average is ${netsAverage}`);
 console.log(`Knicks Team Average is ${knicksAverage}`);
