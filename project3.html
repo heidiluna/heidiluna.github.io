@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Number!</title>
+    <link rel="stylesheet" href="Project3.css"></head>
+
+
+<body>
+<div class="topheader">
+    <h5>Guess the number between 1 and 100!</h5>
+    <div class = "button" id ="playbutton">
+    <button onclick="document.location='#'">Play Game!</button>
+    </div>
+</div>
+
+<br><br>
+
+<div class="center">
+    <h1>Guess My Number!</h1>
+    
+    <div class="answer-box" id="answerbox">
+    <span id= "displayanswer">?</span>
+    </div>
+</div>
+
+
+ <div class="bottom">
+       <div class="column text" id = "reset">
+         <h4 class="answer-check" id="answercheck">Start Guessing...</h4>
+         <div class="score-area">
+           <h4>&#128175 Score: <span id ="score">10</span></h4>
+           <h4>&#127942 High Score: <span id ="highscore">0</span></h4>
+         </div>
+       </div>
+       <div class="col">
+         <input type="number" name="guess" id="numberinput">
+         <button type="button" name="checkbutton" id = "checkbutton">Check!</button>
+       </div>
+     </div>
+
+
+<script src="Project3.1.js"></script>
+</body>
+</html>
